@@ -13,7 +13,7 @@ namespace :dev do
       Article.create(
         title: Faker::Lorem.sentence.delete("."),
         body: Faker::Lorem.paragraph(sentence_count: rand(100..200)),
-        )
+      )
     end
   end
 
