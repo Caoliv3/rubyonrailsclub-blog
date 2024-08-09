@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby "3.3.0"
+ruby "3.2.0"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
@@ -50,6 +50,7 @@ gem "friendly_id", "~> 5.4.0"
 
 gem "devise", "~> 4.9"
 
+gem "sassc-rails"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
