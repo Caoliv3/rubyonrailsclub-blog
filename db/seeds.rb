@@ -10,6 +10,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
+
 # Create-default-admin-users
 admins = ["admin@admin.com", "test@test.com"]
 
