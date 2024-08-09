@@ -12,5 +12,9 @@ Rails.application.config.assets.version = "1.0"
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
-Rails.application.config.assets.precompile += %w( controllers/hello_controller.js )
-Rails.application.config.assets.precompile += %w( controllers/index.js )
+Rails.application.config.assets.precompile += ["controllers/hello_controller.js"]
+Rails.application.config.assets.precompile += ["controllers/index.js"]
+Rails.application.config.assets.precompile += ["jquery/jquery1.min.js"]
+Rails.application.config.assets.precompile += ["slick/slick.min.js"]
+Rails.application.config.assets.precompile += ["menu.js"]
+Rails.application.config.assets.precompile += ["posts-grid.js"]
